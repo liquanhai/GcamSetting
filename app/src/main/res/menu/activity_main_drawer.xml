@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:title=" Моды камер" />
+        <item
+            android:id="@+id/nav_also"
+            android:title=" Разное" />
+
+    </group>
+    <item android:title="Ссылки">
+        <menu>
+            <item
+                android:id="@+id/nav_Gcam"
+                android:title=" GCam релизы" />
+            <item
+                android:id="@+id/nav_chat"
+                android:title=" Чат для обсуждений"/>
+        </menu>
+    </item>
+
+    <item android:title="  Контакты(Телеграмм)">
+        <menu>
+            <item
+                android:id="@+id/nav_Developer"
+                android:title=" Разработчик" />
+            <item
+                android:id="@+id/nav_Design"
+                android:title=" Дихайнер и помощник" />
+            <item
+                android:id="@+id/nav_BSG"
+                android:title=" BSG" />
+            <item
+                android:id="@+id/nav_sanity"
+                android:title=" Sanity" />
+            <item
+                android:id="@+id/nav_xtreme"
+                android:title=" Xtreme" />
+            <item
+                android:id="@+id/nav_alexey"
+                android:title="Alexey" />
+            <item
+                android:id="@+id/nav_skyking"
+                android:title="SkyKing007" />
+        </menu>
+    </item>
+
+</menu>
